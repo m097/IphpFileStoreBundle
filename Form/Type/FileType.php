@@ -112,7 +112,10 @@ class FileType extends AbstractType
 
     }
 
-
+    public function getName()
+    {
+        return 'iphp_file';
+    }
 }
 
 
